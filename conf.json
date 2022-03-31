@@ -1,0 +1,9 @@
+{
+	"images_dir": "images",
+	"images": ["1.jpg", "2.jpg", "3.jpg", "4.jpg"],
+	"dir_for_answer": "results",
+	"grad_max": 35,
+	"min_avg": 1.0,
+	"rect_colour": [0, 0, 255],
+	"rect_thickness": 4
+}
