@@ -35,3 +35,17 @@ python3 gradient_detector.py <name file with config>
 * **min_avg** -  минимальное среднее значение градиента в прямоугольнике.
 * **rect_colour** - цвет рамки, в которую заключают градиентную заливку.
 * **rect_thickness** - толщина рамки, в которую заключают градиентную заливку.
+
+## Пример работы
+
+Склонируйте репозиторий, запустите программу командой
+```
+python3 gradient_detector.py conf.json
+```
+
+Результат работы:
+
+|  1.jpg | 2.jpg | 3.jpg | 4.jpg |
+|:----------------:|:----------------:|:----------------:|:----------------:|
+| <img src="https://github.com/x-ENIAC/Finder-gradient-areas/blob/master/images/1.jpg" alt="drawing1" width="300"/> | <img src="https://github.com/x-ENIAC/Finder-gradient-areas/blob/master/images/2.jpg" alt="drawing2" width="300"/> | <img src="https://github.com/x-ENIAC/Finder-gradient-areas/blob/master/images/3.jpg" alt="drawing3" width="300"/> | <img src="https://github.com/x-ENIAC/Finder-gradient-areas/blob/master/images/4.jpg" alt="drawing4" width="300"/> |
+|  <img src="https://github.com/x-ENIAC/Finder-gradient-areas/blob/master/results/1.jpg" alt="drawing4" width="300"/>  | <img src="https://github.com/x-ENIAC/Finder-gradient-areas/blob/master/results/2.jpg" alt="drawing5" width="300"/> | <img src="https://github.com/x-ENIAC/Finder-gradient-areas/blob/master/results/3.jpg" alt="drawing6" width="300"/> | Gradient areas could not be found in the picture 4.jpg. Try changing the setting in the config file. |
